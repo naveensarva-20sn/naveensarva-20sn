@@ -2,7 +2,25 @@ controller-1  | 2025-01-13 15:36:14.718+0000 [id=31]    SEVERE  jenkins.InitReac
 controller-1  | java.io.IOException: Failed to load: Git plugin (git 5.7.0)
 controller-1  |  - Update required: Credentials Plugin (credentials 1393.v6017143c1763) to be updated to 1405.vb_cda_74a_f8974 or higher
 
+{
+domin rote53[commit changes]
+module "s3_bucket_for_logs" {
+  source = "terraform-aws-modules/s3-bucket/aws"
 
+  bucket = "my-s3-bucket-for-logs"
+  acl    = "log-delivery-write"
+bucket version(t53)
+bucket policy =obj.terraform
+  # Allow deletion of non-empty bucket
+  force_destroy = true
+
+  control_object_ownership = true
+  object_ownership         = "ObjectWriter"
+
+  attach_elb_log_delivery_policy = true  # Required for ALB logs
+  attach_lb_log_delivery_policy  = true  # Required for ALB/NLB logs
+}
+}
 
 
 

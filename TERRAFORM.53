@@ -19,6 +19,7 @@ bucket policy =obj.terraform
 
   attach_elb_log_delivery_policy = true  # Required for ALB logs
   attach_lb_log_delivery_policy  = true  # Required for ALB/NLB logs
+https://www.sonatype.com/products/sonatype-nexus-repository
 }
 }
 

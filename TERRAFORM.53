@@ -13,7 +13,6 @@ bucket version(t53)
 bucket policy =obj.terraform
   # Allow deletion of non-empty bucket
   force_destroy = true
-
   control_object_ownership = true
   object_ownership         = "ObjectWriter"
 
@@ -22,15 +21,15 @@ bucket policy =obj.terraform
 https://www.sonatype.com/products/sonatype-nexus-repository
 }
 }
-
-
-
-
-
-
-
-
-
+update policy: bytes=64,ip=14.80.113.128/24
+ttl:48 
+Repo:nexus
+else 
+create tags {
+for (Object objKey : tmpHM.keySet()) {
+   HashMap objHM = (HashMap) list.get(objKey);
+}
+install hashicop
 
 
 -  Lamda fuctions on AWS domain ...

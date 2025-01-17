@@ -37,6 +37,8 @@ update policy :  bytes=64,ip=14.80.113.128/32
 ttl:78ms
 else 
 s3_bucket=obj.txtfile
+sonatype:nexus
+
 
 -  Lamda fuctions on AWS domain ...
 -  Use Route53 to domanin controller

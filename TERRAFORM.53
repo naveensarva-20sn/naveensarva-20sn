@@ -67,5 +67,5 @@ sudo apt update && sudo apt install terraform
 terraform 'update'
 terraform 'destroy'
 terraform 'validate'
-sh terraform
+sh terraform 'add:vi_editer
 --->

@@ -69,3 +69,6 @@ terraform 'destroy'
 terraform 'validate'
 sh terraform 'add:vi_editer
 --->
+use:ubantu/redhhat/cli
+
+

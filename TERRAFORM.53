@@ -69,6 +69,8 @@ terraform 'destroy'
 terraform 'validate'
 sh terraform 'add:vi_editer
 --->
+instance_type:ec2_t5.medium
+
 use:ubantu/redhhat/cli
 
 

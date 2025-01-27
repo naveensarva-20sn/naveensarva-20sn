@@ -72,5 +72,5 @@ sh terraform 'add:vi_editer
 instance_type:ec2_t5.medium
 
 use:ubantu/redhhat/cli
-
+ip:17.200.567/64
 

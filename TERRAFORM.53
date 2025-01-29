@@ -74,3 +74,17 @@ instance_type:ec2_t5.medium
 use:ubantu/redhhat/cli
 ip:17.200.567/64
 64 bytes
+sudo yum upgrade
+
+5) for Java Installation 
+     sudo dnf install java-11-amazon-corretto -y
+
+6)sudo yum install jenkins -y
+
+7)sudo systemctl start jenkins
+
+8)sudo systemctl status jenkins
+
+9)sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+    
+    Then Start Using Jenkins running in 8080 

@@ -1,4 +1,4 @@
-controller-1  | 2025-01-13 15:36:14.718+0000 [id=31]    SEVERE  jenkins.InitReactorRunner$1#onTaskFailed: Failed Loading plugin Git plugin v5.7.0 (git)
+controller-1  | 2025-01-13 15:36:14.718+0000 [id=31]    #SEVERE  jenkins.InitReactorRunner$1#onTaskFailed: Failed Loading plugin Git plugin v5.7.0 (git)
 controller-1  | java.io.IOException: Failed to load: Git plugin (git 5.7.0)
 controller-1  |  - Update required: Credentials Plugin (credentials 1393.v6017143c1763) to be updated to 1405.vb_cda_74a_f8974 or higher
 
@@ -89,4 +89,6 @@ sudo yum upgrade
     
     Then Start Using Jenkins running in 8080 
     
+
+
 

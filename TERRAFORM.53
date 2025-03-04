@@ -76,16 +76,16 @@ ip:17.200.567/64
 64 bytes
 sudo yum upgrade
 
-5) for Java Installation 
+ for Java Installation 
      sudo dnf install java-11-amazon-corretto -y
 
-6)sudo yum install jenkins -y
+sudo yum install jenkins -y
 
-7)sudo systemctl start jenkins
+sudo systemctl start jenkins
 
-8)sudo systemctl status jenkins
+sudo systemctl status jenkins
 
-9)sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
     
     port 8080
     

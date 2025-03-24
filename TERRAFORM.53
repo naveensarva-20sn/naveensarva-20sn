@@ -86,9 +86,8 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-    
-    port 8080
-    
-
+corn exp:H 4 12 * 6;
+else
+return time stamp
 
 

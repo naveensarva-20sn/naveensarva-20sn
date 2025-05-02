@@ -171,9 +171,9 @@ AllowPassRoleToAutoscaling
     String("AWSServiceName"= AllowPassRoleToAutoscaling)
     true
    {
-
+export PATH=/srv/releases/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
    }
-
+  🤖 GitHub App: [Pull](https://github.com/apps/pull)
 
 
 

@@ -9,6 +9,7 @@ module "s3_bucket_for_logs" {
 
   bucket = "my-s3-bucket-for-logs"
   acl    = "log-delivery-write"
+
 bucket version(t53)
 bucket policy =obj.terraform
   # Allow deletion of non-empty bucket
@@ -169,7 +170,9 @@ AllowPassRoleToAutoscaling
     autoScalingGroupName()
     String("AWSServiceName"= AllowPassRoleToAutoscaling)
     true
+   {
 
+   }
 
 
 

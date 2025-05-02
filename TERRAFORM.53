@@ -156,4 +156,22 @@ perf-5.4.290-205.405.amzn2
 
 python-perf-5.4.290-205.405.amzn2
 
+AllowPassRoleToAutoscaling
+{
+    PermissionsToCreateEKSAndKubernetesTags
+    RemoveRoleFromInstanceProfile()
+    StringEqualsIfExists
+    PermissionsToCreateAndManageInstanceProfiles()
+    PutScheduledUpdateGroupAction
+    TerminateInstanceInAutoScalingGroup()
+    TagKeys(1078);
+    LaunchTemplateRelatedPermissions()
+    autoScalingGroupName()
+    String("AWSServiceName"= AllowPassRoleToAutoscaling)
+    true
+
+
+
+
+
 

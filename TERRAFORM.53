@@ -178,7 +178,7 @@ createAutoScaling( PermissionsToCreateEKSAndKubernetesTags
     RemoveRoleFromInstanceProfile()
     StringEqualsIfExists
     PermissionsToCreateAndManageInstanceProfiles())
-
+    
 
 
 

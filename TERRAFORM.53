@@ -179,6 +179,10 @@ createAutoScaling( PermissionsToCreateEKSAndKubernetesTags
     RemoveRoleFromInstanceProfile()
     StringEqualsIfExists
     PermissionsToCreateAndManageInstanceProfiles())
+     kernel-5.4.290-205.405.amzn2
+     wrapping()
+
+    
     
 
 
